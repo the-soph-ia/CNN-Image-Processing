@@ -12,7 +12,8 @@ for file in os.listdir('ML Processing/tortoises/tortoises_sorted'):
     x = center[1] - dim/2
     y = center[0] - dim/2
     crop_img = img[int(y):int(y+dim), int(x):int(x+dim)]
-    cv2.imwrite('ML Processing/tortoises/tortoises_sorted/%s'%file,crop_img)
+    
+    
 
 #resize
 for file in os.listdir('ML Processing/tortoises/tortoises_sorted'):
