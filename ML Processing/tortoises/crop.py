@@ -7,12 +7,11 @@ import cv2
 for file in os.listdir('ML Processing/tortoises/tortoises_sorted'):
     img = cv2.imread('ML Processing/tortoises/tortoises_sorted/%s' %file)
     height,width,_ = img.shape
-    dim = min(width,height)
+    dim = max(width,height)
     center = [height/2,width/2]
     x = center[1] - dim/2
     y = center[0] - dim/2
     crop_img = img[int(y):int(y+dim), int(x):int(x+dim)]
-    
     
 
 #resize
