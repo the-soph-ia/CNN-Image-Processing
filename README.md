@@ -1,7 +1,16 @@
 # CNN-Image-Processing
-- still a work in progress
-- steps:
-1. add images to 'queue' folder
-2. run 'rename.py' to order data
-3. run 'crop.py' to resize and crop data
+
+### Use this simple Python script to clean up your image classification data!
+Crops any image into a 255x255 pixel square.
+
+
+To Use:
+1. Create a folder under 'ML Processing' for the object you want to identify ('frogs' if the object is frogs)
+2. Within that folder, create three subfolders:
+    frogs_queue
+    frogs_sorted
+    frogs_processed
+3. Add your images to the _queue folder
+4. Run 'process.py' and watch the processed images appear in the _processed folder!
+
 Then woah! You've got a nice stack of images ready for CNNs!
