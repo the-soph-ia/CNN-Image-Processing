@@ -14,3 +14,5 @@ To Use:
 4. Run 'process.py' and watch the processed images appear in the _processed folder!
 
 Then woah! You've got a nice stack of images ready for CNNs!
+Optional:
+4. run 'double.py' to flip your images and effectively double the size of your training data
